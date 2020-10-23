@@ -15,5 +15,32 @@ body {
 }
 
 .inputs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+}
 
+.inputs > * {
+  border: 1px solid #F2F1F1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+}
+
+input[type="submit"] {
+  background: #CFDDDD;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: 0;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="submit"]:focus {
+  border-color: blue;
 }
