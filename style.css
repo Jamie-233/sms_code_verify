@@ -21,6 +21,23 @@ body {
   place-items: center;
 }
 
+input[type=text]{
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+input[type=text]:focus {
+  color: #000;
+  background: #fff;
+  border-color: #777;
+  outline: 0;
+}
+
 .inputs > * {
   border: 1px solid #F2F1F1;
   width: 100%;
