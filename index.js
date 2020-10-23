@@ -27,9 +27,9 @@ function handlePaste(e) {
   });
 }
 
-inputs[0].addEventListener('paste', handlePaste);
 form[0].addEventListener('keydown', handleDelete);
 form[0].addEventListener('input', handleInput);
+inputs[0].addEventListener('paste', handlePaste);
 
 // 1. select the text when the next input is focued
 // 2. Auto submit the form if all fields are filled after a paste
